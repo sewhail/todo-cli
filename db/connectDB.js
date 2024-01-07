@@ -27,6 +27,3 @@ export async function disconnectDB() {
         process.exit(1)
     }
 }
-
-connectDB()
-disconnectDB()
